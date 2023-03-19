@@ -7,7 +7,7 @@ def parallel_processing(n, m, data):
         start, xdr1= xdr.pop(0)
         output.append((xdr1, start))
         end = start+data[i]
-        xdr.append((end.xdr1))
+        xdr.append((end, xdr1))
         xdr.sort()
 
     return output
